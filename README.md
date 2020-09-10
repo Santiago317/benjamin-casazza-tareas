@@ -1,4 +1,4 @@
-# Ejemplo para las tareas del curso: Tecnologias para el manejo masivo de datos
+# Tecnologías para el manejo masivo de datos
 
 # Tarea 1
 -Titulos de las lecciones de vimtutor
