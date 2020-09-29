@@ -11,25 +11,7 @@ cd ELK-example
 docker network create -d bridge mynetwork   
 ```
 
-### logstash.conf
-```bash
-mkdir pipeline
-touch pipeline/logstash.conf
 
-vim pipeline/logstash.conf
-
-```
-```bash
-input {
- stdin {}
-}
-
-output {
-  elasticsearch {
-    hosts => ["elasticsearch:9200"]
-  }
-}
-```
 
 ## ElasticSearch
 
