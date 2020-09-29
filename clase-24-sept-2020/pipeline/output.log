@@ -1,3 +1,4 @@
 {"@version":"1","path":"/app/input.log","@timestamp":"2020-09-24T22:19:32.159Z","message":"hola mundo desde logstash","host":"689b6229b165"}
 {"@version":"1","path":"/app/input.log","@timestamp":"2020-09-24T22:27:35.609Z","message":"hola mundo desde logstash version 2 ","host":"689b6229b165"}
 {"@version":"1","path":"/app/input.log","@timestamp":"2020-09-24T22:43:45.231Z","message":"hola mundo desde logstash version 3 ","host":"689b6229b165"}
+{"@version":"1","@timestamp":"2020-09-29T05:45:23.106Z","host":"71ae0fcf38e7","message":"hola mundo desde logstash","path":"/app/input.log"}
