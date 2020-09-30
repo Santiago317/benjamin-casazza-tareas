@@ -61,13 +61,12 @@ docker.elastic.co/logstash/logstash:7.6.2
 logstash -f /app/logstash.conf
 ```
 ### 3.4.-  Revisar nuestros datos en
+
 http://localhost:9200/_search?pretty&size=1000
  ó
 ```bash
  wget http://localhost:9200/_search?pretty&size=1000
 ```
-
-
 
 ### 4.- Levantar el servicio de Kibana 
 
@@ -102,7 +101,6 @@ https://www.kaggle.com/ptoscano230382/air-bnb-ny-2019
 
 #### 7.2 hacer el archivo de configuracion para Logstash
 
-#### 7.1 Hacer el archivo de configuración logstash.conf
 ```bash
 mkdir csv
 vim csv/logstash.conf
@@ -133,7 +131,7 @@ output {
 }
 
 ```
-#### 7.2 Levantar el servicio de logstash.conf
+#### 7.3 Levantar el servicio de Logstash
 ```bash
 docker run -it \
 --rm \
@@ -150,7 +148,7 @@ logstash -f /app/logstash.conf
 ```
 #### 7.2 Ver nuestra información en kibana
 
-
+http://localhost:5601/
 
 
 
