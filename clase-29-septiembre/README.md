@@ -18,7 +18,7 @@ docker network create -d bridge mynetwork
 
 ```bash
 docker run \
--p 9200:9200 -p 9300:9300\
+-p 9200:9200 -p 9300:9300 \
 --net=mynetwork \
 --name elasticsearch \
 -e "discovery.type=single-node" \
